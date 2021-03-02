@@ -29,6 +29,9 @@ html {
 Base Styles
 ****************************
 ***************************/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 
 /***************************
@@ -132,6 +135,49 @@ Modules
   text-decoration: none;
 }
 
+.btn-hero {
+    padding: 15px 30px;
+    border-radius: 4px;
+    background: none;
+    font-size: 1.750em;
+    color: #ffffff;
+    border: 1pt solid #ffffff;
+}
+.btn-hero:hover {
+  background: #ffffff;
+  color: #39b54a;
+}
+
+/* Added styling  */
+@media only screen and (min-width: 48em){
+  .btn-primary {
+    font-size: 1.125em;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-weight: normal;
+  }
+
+  .btn-primary:hover {
+    border: 1px solid #ffffff;
+  }
+
+  .btn-hero {
+    padding: 15px 30px;
+    border-radius: 4px;
+    background: none;
+    font-size: 1.750em;
+    color: #ffffff;
+    border: 1pt solid #ffffff;
+  }
+  .btn-hero:hover {
+    background: #ffffff;
+    color: #39b54a;
+  }
+
+  
+
+}
+
 /* Header Module  */
 .header-primary {
   background: #9b8579;
@@ -225,6 +271,45 @@ Modules
   min-width: 100%;
 }
 
+/* Media Object Module */
+.media, .media-body {
+  /* stops content from wrapping */
+  overflow: hidden;
+}
+
+.media-item {
+  float: left;
+  margin-right: 10px;
+}
+
+.media-item i {
+  color: #594a42;
+  font-size: 5em;
+}
+
+/* Testimonial Module */
+.testimonial {
+  text-align: center;
+  color: #ffffff;
+}
+
+.testimonial-item {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.testimonial-item > i {
+  padding-right: 20px;
+}
+
+.testimonial-bg-image {
+  opacity: 0.70;
+  
+}
+
+.testimonial-item, .testimonial-body {
+  position: relative;
+}
 
 
 
