@@ -150,6 +150,7 @@ Modules
 
 /* Added styling  */
 @media only screen and (min-width: 48em){
+  /* Button Desktop Module */
   .btn-primary {
     font-size: 1.125em;
     padding: 10px 15px;
@@ -159,8 +160,11 @@ Modules
 
   .btn-primary:hover {
     border: 1px solid #ffffff;
+    text-decoration: none;
+    background: none;
   }
 
+  /* Hero Button Desktop Module */
   .btn-hero {
     padding: 15px 30px;
     border-radius: 4px;
@@ -174,7 +178,8 @@ Modules
     color: #39b54a;
   }
 
-  
+  /* Media Object Desktop Module  */
+
 
 }
 
@@ -279,12 +284,21 @@ Modules
 
 .media-item {
   float: left;
-  margin-right: 10px;
+  padding-right: 30px;
 }
 
 .media-item i {
   color: #594a42;
   font-size: 5em;
+  padding-top: 20px;
+}
+
+.media-body, .media-item {
+  margin-top: 40px;
+}
+
+.media-body > button {
+  margin: 40px 0px;
 }
 
 /* Testimonial Module */
@@ -320,8 +334,8 @@ Modules
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
   
 }
 
@@ -346,4 +360,8 @@ Theme Styles
 }
 .background-quinary {
   background: #e7e1d7;
+}
+
+.background-media {
+  background-color: #c2b59b;
 }
